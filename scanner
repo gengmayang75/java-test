@@ -1,0 +1,21 @@
+
+
+
+public class whileLoops {
+
+    public static void main(String[] args) {
+        
+        string sentence = "flapjacks are awesome!";
+         scanner scan = new Scanner(sentence );
+         ArrayList<String> words = new ArrayList<String>();
+         
+         while(scan.hasNext()) {
+              words.add(scan.Next());
+            }
+            
+            System.out.printIn(words);
+            
+            }
+            
+            }
+
